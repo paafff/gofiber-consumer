@@ -1,0 +1,15 @@
+{
+  "app": {
+    "name": "gofiber-consumer"
+  },
+  "web": {
+    "prefork": false,
+    "port": 3000
+  },
+  "log": {
+    "level": 6
+  },
+  "rabbitmq": {
+    "uri": "amqp://guest:guest@host.docker.internal:5672/"
+  }
+}
